@@ -18,6 +18,8 @@
 
 module emu
 (
+	`include "sys/emu_ports.vh"
+);
 	//Master input clock
 	input         CLK_50M,
 
